@@ -1,2 +1,2 @@
 #!/bin/bash
-num_dirs=$(find . -mindepth 1 -maxdepth 1 -type d | wc -l)
+num_dirs=$(find . -type d | wc -l)
